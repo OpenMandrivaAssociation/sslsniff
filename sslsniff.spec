@@ -1,11 +1,12 @@
 Summary:	SSL/TLS man-in-the-middle attack tool
 Name:		sslsniff
 Version:	0.6
-Release:	%mkrel 1
+Release:	%mkrel 2
 License:	GPLv3+
 Group:		System/Servers
 URL:		http://www.thoughtcrime.org/software/sslsniff/
 Source0:	http://www.thoughtcrime.org/software/sslsniff/%{name}-%{version}.tar.gz
+Patch0:		sslsniff-0.6-fix-linkage.patch
 Requires:	openssl
 BuildRequires:	openssl-devel
 BuildRequires:	boost-devel
@@ -21,8 +22,8 @@ supports other attacks like null-prefix or OCSP attacks to achieve silent
 interceptions of connections when possible.
 
 %prep
-
 %setup -q
+%patch0 -p0
 
 %build
 %configure2_5x
