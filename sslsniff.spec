@@ -1,7 +1,7 @@
 Summary:	SSL/TLS man-in-the-middle attack tool
 Name:		sslsniff
 Version:	0.6
-Release:	%mkrel 5
+Release:	%mkrel 6
 License:	GPLv3+
 Group:		System/Servers
 URL:		http://www.thoughtcrime.org/software/sslsniff/
