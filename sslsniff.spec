@@ -1,6 +1,6 @@
 Summary:	SSL/TLS man-in-the-middle attack tool
 Name:		sslsniff
-Version:	0.7
+Version:	0.8
 Release:	%mkrel 1
 License:	GPLv3+
 Group:		System/Servers
