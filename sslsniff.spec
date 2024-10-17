@@ -4,7 +4,7 @@ Version:	0.8
 Release:	%mkrel 1
 License:	GPLv3+
 Group:		System/Servers
-URL:		http://www.thoughtcrime.org/software/sslsniff/
+URL:		https://www.thoughtcrime.org/software/sslsniff/
 Source0:	http://www.thoughtcrime.org/software/sslsniff/%{name}-%{version}.tar.gz
 Requires:	openssl
 BuildRequires:	openssl-devel
