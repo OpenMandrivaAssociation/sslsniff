@@ -7,6 +7,11 @@ Group:		System/Servers
 URL:		https://www.thoughtcrime.org/software/sslsniff/
 Source0:	http://www.thoughtcrime.org/software/sslsniff/%{name}-%{version}.tar.gz
 Requires:	openssl
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	openssl-devel
 BuildRequires:	boost-devel
 BuildRequires:	log4cpp-devel >= 1.0
